@@ -33,7 +33,7 @@ if (!defined('_PS_DISPLAY_COMPATIBILITY_WARNING_')) {
     define('_PS_DISPLAY_COMPATIBILITY_WARNING_', true);
 }
 if (!defined('_PS_DISPLAY_ONLY_ERRORS_')) {
-    define('_PS_DISPLAY_ONLY_ERRORS_', false);
+    define('_PS_DISPLAY_ONLY_ERRORS_', true);
 }
 if (_PS_MODE_DEV_ === true) {
     $errorReportingLevel = E_ALL | E_STRICT;
